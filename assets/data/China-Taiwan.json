@@ -1,0 +1,178 @@
+[
+    {
+        "name": "台北市",
+        "pinyin": "taibeishi",
+        "english": "Taipei City",
+        "code": "TW001",
+        "center": "121.565418,25.032969",
+        "region": "台湾"
+    },
+    {
+        "name": "新北市",
+        "pinyin": "xinbeishi",
+        "english": "New Taipei City",
+        "code": "TW002",
+        "center": "121.465746,25.012366",
+        "region": "台湾"
+    },
+    {
+        "name": "桃园市",
+        "pinyin": "taoyuanshi",
+        "english": "Taoyuan City",
+        "code": "TW003",
+        "center": "121.301044,24.993628",
+        "region": "台湾"
+    },
+    {
+        "name": "台中市",
+        "pinyin": "taizhongshi",
+        "english": "Taichung City",
+        "code": "TW004",
+        "center": "120.679882,24.138647",
+        "region": "台湾"
+    },
+    {
+        "name": "台南市",
+        "pinyin": "tainanshi",
+        "english": "Tainan City",
+        "code": "TW005",
+        "center": "120.279372,23.172501",
+        "region": "台湾"
+    },
+    {
+        "name": "高雄市",
+        "pinyin": "gaoxiongshi",
+        "english": "Kaohsiung City",
+        "code": "TW006",
+        "center": "120.311922,22.620856",
+        "region": "台湾"
+    },
+    {
+        "name": "基隆市",
+        "pinyin": "jilongshi",
+        "english": "Keelung City",
+        "code": "TW007",
+        "center": "121.746248,25.127603",
+        "region": "台湾"
+    },
+    {
+        "name": "新竹市",
+        "pinyin": "xinzhushi",
+        "english": "Hsinchu City",
+        "code": "TW008",
+        "center": "120.968798,24.806738",
+        "region": "台湾"
+    },
+    {
+        "name": "嘉义市",
+        "pinyin": "jiayishi",
+        "english": "Chiayi City",
+        "code": "TW009",
+        "center": "120.452538,23.480075",
+        "region": "台湾"
+    },
+    {
+        "name": "宜兰县",
+        "pinyin": "yilanxian",
+        "english": "Yilan County",
+        "code": "TW010",
+        "center": "121.737750,24.702107",
+        "region": "台湾"
+    },
+    {
+        "name": "新竹县",
+        "pinyin": "xinzhuxian",
+        "english": "Hsinchu County",
+        "code": "TW011",
+        "center": "121.002012,24.839233",
+        "region": "台湾"
+    },
+    {
+        "name": "苗栗县",
+        "pinyin": "miaolixian",
+        "english": "Miaoli County",
+        "code": "TW012",
+        "center": "120.823441,24.560159",
+        "region": "台湾"
+    },
+    {
+        "name": "彰化县",
+        "pinyin": "zhanghuaxian",
+        "english": "Changhua County",
+        "code": "TW013",
+        "center": "120.538441,24.080984",
+        "region": "台湾"
+    },
+    {
+        "name": "南投县",
+        "pinyin": "nantouxian",
+        "english": "Nantou County",
+        "code": "TW014",
+        "center": "120.687233,23.960998",
+        "region": "台湾"
+    },
+    {
+        "name": "云林县",
+        "pinyin": "yunlinxian",
+        "english": "Yunlin County",
+        "code": "TW015",
+        "center": "120.431337,23.709203",
+        "region": "台湾"
+    },
+    {
+        "name": "嘉义县",
+        "pinyin": "jiayixian",
+        "english": "Chiayi County",
+        "code": "TW016",
+        "center": "120.300071,23.451842",
+        "region": "台湾"
+    },
+    {
+        "name": "屏东县",
+        "pinyin": "pingdongxian",
+        "english": "Pingtung County",
+        "code": "TW017",
+        "center": "120.487928,22.551976",
+        "region": "台湾"
+    },
+    {
+        "name": "台东县",
+        "pinyin": "taidongxian",
+        "english": "Taitung County",
+        "code": "TW018",
+        "center": "121.144379,22.758952",
+        "region": "台湾"
+    },
+    {
+        "name": "花莲县",
+        "pinyin": "hualianxian",
+        "english": "Hualien County",
+        "code": "TW019",
+        "center": "121.601111,23.987158",
+        "region": "台湾"
+    },
+    {
+        "name": "澎湖县",
+        "pinyin": "penghuxian",
+        "english": "Penghu County",
+        "code": "TW020",
+        "center": "119.579315,23.571190",
+        "region": "台湾"
+    },
+    {
+        "name": "金门县",
+        "pinyin": "jinmenxian",
+        "english": "Kinmen County",
+        "code": "TW021",
+        "center": "118.317089,24.432706",
+        "region": "台湾"
+    },
+    {
+        "name": "连江县",
+        "pinyin": "lianjiangxian",
+        "english": "Lienchiang County",
+        "code": "TW022",
+        "center": "119.539704,26.197377",
+        "region": "台湾"
+    }
+] 

@@ -1,0 +1,926 @@
+[
+    {
+        "name": "美国",
+        "english": "United States",
+        "code": "US001",
+        "center": "-95.712891,37.090240",
+        "region": "海外"
+    },
+    {
+        "name": "加拿大",
+        "english": "Canada",
+        "code": "CA001",
+        "center": "-106.346771,56.130366",
+        "region": "海外"
+    },
+    {
+        "name": "英国",
+        "english": "United Kingdom",
+        "code": "GB001",
+        "center": "-0.127758,51.507351",
+        "region": "海外"
+    },
+    {
+        "name": "法国",
+        "english": "France",
+        "code": "FR001",
+        "center": "2.213749,46.227638",
+        "region": "海外"
+    },
+    {
+        "name": "德国",
+        "english": "Germany",
+        "code": "DE001",
+        "center": "10.451526,51.165691",
+        "region": "海外"
+    },
+    {
+        "name": "意大利",
+        "english": "Italy",
+        "code": "IT001",
+        "center": "12.567380,41.871940",
+        "region": "海外"
+    },
+    {
+        "name": "西班牙",
+        "english": "Spain",
+        "code": "ES001",
+        "center": "-3.749220,40.463667",
+        "region": "海外"
+    },
+    {
+        "name": "荷兰",
+        "english": "Netherlands",
+        "code": "NL001",
+        "center": "5.291266,52.132633",
+        "region": "海外"
+    },
+    {
+        "name": "比利时",
+        "english": "Belgium",
+        "code": "BE001",
+        "center": "4.351710,50.850340",
+        "region": "海外"
+    },
+    {
+        "name": "瑞士",
+        "english": "Switzerland",
+        "code": "CH001",
+        "center": "8.227512,46.818188",
+        "region": "海外"
+    },
+    {
+        "name": "奥地利",
+        "english": "Austria",
+        "code": "AT001",
+        "center": "14.550072,47.516231",
+        "region": "海外"
+    },
+    {
+        "name": "瑞典",
+        "english": "Sweden",
+        "code": "SE001",
+        "center": "18.068581,60.128161",
+        "region": "海外"
+    },
+    {
+        "name": "挪威",
+        "english": "Norway",
+        "code": "NO001",
+        "center": "8.468946,60.472024",
+        "region": "海外"
+    },
+    {
+        "name": "丹麦",
+        "english": "Denmark",
+        "code": "DK001",
+        "center": "9.501785,56.263920",
+        "region": "海外"
+    },
+    {
+        "name": "芬兰",
+        "english": "Finland",
+        "code": "FI001",
+        "center": "25.748151,61.924110",
+        "region": "海外"
+    },
+    {
+        "name": "波兰",
+        "english": "Poland",
+        "code": "PL001",
+        "center": "19.145136,51.919438",
+        "region": "海外"
+    },
+    {
+        "name": "捷克",
+        "english": "Czech Republic",
+        "code": "CZ001",
+        "center": "15.472962,49.817492",
+        "region": "海外"
+    },
+    {
+        "name": "匈牙利",
+        "english": "Hungary",
+        "code": "HU001",
+        "center": "19.503304,47.162494",
+        "region": "海外"
+    },
+    {
+        "name": "俄罗斯",
+        "english": "Russia",
+        "code": "RU001",
+        "center": "105.318756,61.524010",
+        "region": "海外"
+    },
+    {
+        "name": "乌克兰",
+        "english": "Ukraine",
+        "code": "UA001",
+        "center": "31.165580,48.379433",
+        "region": "海外"
+    },
+    {
+        "name": "日本",
+        "english": "Japan",
+        "code": "JP001",
+        "center": "138.252924,36.204824",
+        "region": "海外"
+    },
+    {
+        "name": "韩国",
+        "english": "South Korea",
+        "code": "KR001",
+        "center": "127.766922,35.907757",
+        "region": "海外"
+    },
+    {
+        "name": "朝鲜",
+        "english": "North Korea",
+        "code": "KP001",
+        "center": "127.510093,40.339852",
+        "region": "海外"
+    },
+    {
+        "name": "蒙古",
+        "english": "Mongolia",
+        "code": "MN001",
+        "center": "103.846656,46.862496",
+        "region": "海外"
+    },
+    {
+        "name": "越南",
+        "english": "Vietnam",
+        "code": "VN001",
+        "center": "108.277199,14.058324",
+        "region": "海外"
+    },
+    {
+        "name": "老挝",
+        "english": "Laos",
+        "code": "LA001",
+        "center": "102.495496,19.856270",
+        "region": "海外"
+    },
+    {
+        "name": "柬埔寨",
+        "english": "Cambodia",
+        "code": "KH001",
+        "center": "104.990963,12.565679",
+        "region": "海外"
+    },
+    {
+        "name": "泰国",
+        "english": "Thailand",
+        "code": "TH001",
+        "center": "101.686855,15.870032",
+        "region": "海外"
+    },
+    {
+        "name": "缅甸",
+        "english": "Myanmar",
+        "code": "MM001",
+        "center": "95.956223,21.916221",
+        "region": "海外"
+    },
+    {
+        "name": "马来西亚",
+        "english": "Malaysia",
+        "code": "MY001",
+        "center": "101.686855,4.210484",
+        "region": "海外"
+    },
+    {
+        "name": "新加坡",
+        "english": "Singapore",
+        "code": "SG001",
+        "center": "103.819836,1.352083",
+        "region": "海外"
+    },
+    {
+        "name": "印度尼西亚",
+        "english": "Indonesia",
+        "code": "ID001",
+        "center": "113.921327,-0.789275",
+        "region": "海外"
+    },
+    {
+        "name": "菲律宾",
+        "english": "Philippines",
+        "code": "PH001",
+        "center": "121.774017,12.879721",
+        "region": "海外"
+    },
+    {
+        "name": "文莱",
+        "english": "Brunei",
+        "code": "BN001",
+        "center": "114.727669,4.535277",
+        "region": "海外"
+    },
+    {
+        "name": "东帝汶",
+        "english": "East Timor",
+        "code": "TL001",
+        "center": "125.727539,-8.874217",
+        "region": "海外"
+    },
+    {
+        "name": "印度",
+        "english": "India",
+        "code": "IN001",
+        "center": "78.962880,20.593684",
+        "region": "海外"
+    },
+    {
+        "name": "巴基斯坦",
+        "english": "Pakistan",
+        "code": "PK001",
+        "center": "69.345116,30.375321",
+        "region": "海外"
+    },
+    {
+        "name": "阿富汗",
+        "english": "Afghanistan",
+        "code": "AF001",
+        "center": "67.709953,33.939110",
+        "region": "海外"
+    },
+    {
+        "name": "伊朗",
+        "english": "Iran",
+        "code": "IR001",
+        "center": "53.688046,32.427908",
+        "region": "海外"
+    },
+    {
+        "name": "伊拉克",
+        "english": "Iraq",
+        "code": "IQ001",
+        "center": "43.679291,33.223191",
+        "region": "海外"
+    },
+    {
+        "name": "叙利亚",
+        "english": "Syria",
+        "code": "SY001",
+        "center": "38.996815,34.802075",
+        "region": "海外"
+    },
+    {
+        "name": "土耳其",
+        "english": "Turkey",
+        "code": "TR001",
+        "center": "35.243322,38.963745",
+        "region": "海外"
+    },
+    {
+        "name": "以色列",
+        "english": "Israel",
+        "code": "IL001",
+        "center": "34.851612,31.046051",
+        "region": "海外"
+    },
+    {
+        "name": "约旦",
+        "english": "Jordan",
+        "code": "JO001",
+        "center": "36.238414,30.585164",
+        "region": "海外"
+    },
+    {
+        "name": "黎巴嫩",
+        "english": "Lebanon",
+        "code": "LB001",
+        "center": "35.862285,33.854721",
+        "region": "海外"
+    },
+    {
+        "name": "沙特阿拉伯",
+        "english": "Saudi Arabia",
+        "code": "SA001",
+        "center": "45.079162,23.885942",
+        "region": "海外"
+    },
+    {
+        "name": "阿联酋",
+        "english": "United Arab Emirates",
+        "code": "AE001",
+        "center": "53.847818,24.000248",
+        "region": "海外"
+    },
+    {
+        "name": "卡塔尔",
+        "english": "Qatar",
+        "code": "QA001",
+        "center": "51.183884,25.354826",
+        "region": "海外"
+    },
+    {
+        "name": "科威特",
+        "english": "Kuwait",
+        "code": "KW001",
+        "center": "47.481766,29.311660",
+        "region": "海外"
+    },
+    {
+        "name": "巴林",
+        "english": "Bahrain",
+        "code": "BH001",
+        "center": "50.547472,26.066700",
+        "region": "海外"
+    },
+    {
+        "name": "阿曼",
+        "english": "Oman",
+        "code": "OM001",
+        "center": "55.923255,21.512583",
+        "region": "海外"
+    },
+    {
+        "name": "也门",
+        "english": "Yemen",
+        "code": "YE001",
+        "center": "48.516388,15.552727",
+        "region": "海外"
+    },
+    {
+        "name": "埃及",
+        "english": "Egypt",
+        "code": "EG001",
+        "center": "30.802498,26.820553",
+        "region": "海外"
+    },
+    {
+        "name": "利比亚",
+        "english": "Libya",
+        "code": "LY001",
+        "center": "17.228331,26.335100",
+        "region": "海外"
+    },
+    {
+        "name": "突尼斯",
+        "english": "Tunisia",
+        "code": "TN001",
+        "center": "9.537499,36.818810",
+        "region": "海外"
+    },
+    {
+        "name": "阿尔及利亚",
+        "english": "Algeria",
+        "code": "DZ001",
+        "center": "1.659626,28.033886",
+        "region": "海外"
+    },
+    {
+        "name": "摩洛哥",
+        "english": "Morocco",
+        "code": "MA001",
+        "center": "-7.092620,31.791702",
+        "region": "海外"
+    },
+    {
+        "name": "苏丹",
+        "english": "Sudan",
+        "code": "SD001",
+        "center": "30.217636,12.862807",
+        "region": "海外"
+    },
+    {
+        "name": "南苏丹",
+        "english": "South Sudan",
+        "code": "SS001",
+        "center": "30.902496,6.877000",
+        "region": "海外"
+    },
+    {
+        "name": "埃塞俄比亚",
+        "english": "Ethiopia",
+        "code": "ET001",
+        "center": "40.489673,9.145000",
+        "region": "海外"
+    },
+    {
+        "name": "索马里",
+        "english": "Somalia",
+        "code": "SO001",
+        "center": "46.199616,5.152149",
+        "region": "海外"
+    },
+    {
+        "name": "肯尼亚",
+        "english": "Kenya",
+        "code": "KE001",
+        "center": "37.906193,-0.023559",
+        "region": "海外"
+    },
+    {
+        "name": "坦桑尼亚",
+        "english": "Tanzania",
+        "code": "TZ001",
+        "center": "34.888822,-6.369028",
+        "region": "海外"
+    },
+    {
+        "name": "乌干达",
+        "english": "Uganda",
+        "code": "UG001",
+        "center": "32.290275,1.373333",
+        "region": "海外"
+    },
+    {
+        "name": "卢旺达",
+        "english": "Rwanda",
+        "code": "RW001",
+        "center": "29.873888,-1.940278",
+        "region": "海外"
+    },
+    {
+        "name": "布隆迪",
+        "english": "Burundi",
+        "code": "BI001",
+        "center": "29.918886,-3.373056",
+        "region": "海外"
+    },
+    {
+        "name": "刚果民主共和国",
+        "english": "Democratic Republic of the Congo",
+        "code": "CD001",
+        "center": "21.758664,-4.038333",
+        "region": "海外"
+    },
+    {
+        "name": "刚果共和国",
+        "english": "Republic of the Congo",
+        "code": "CG001",
+        "center": "15.827659,-0.228021",
+        "region": "海外"
+    },
+    {
+        "name": "加蓬",
+        "english": "Gabon",
+        "code": "GA001",
+        "center": "11.609444,-0.803689",
+        "region": "海外"
+    },
+    {
+        "name": "赤道几内亚",
+        "english": "Equatorial Guinea",
+        "code": "GQ001",
+        "center": "10.267895,1.650801",
+        "region": "海外"
+    },
+    {
+        "name": "圣多美和普林西比",
+        "english": "São Tomé and Príncipe",
+        "code": "ST001",
+        "center": "6.613081,0.186360",
+        "region": "海外"
+    },
+    {
+        "name": "喀麦隆",
+        "english": "Cameroon",
+        "code": "CM001",
+        "center": "12.354722,7.369722",
+        "region": "海外"
+    },
+    {
+        "name": "中非共和国",
+        "english": "Central African Republic",
+        "code": "CF001",
+        "center": "20.939444,6.611111",
+        "region": "海外"
+    },
+    {
+        "name": "乍得",
+        "english": "Chad",
+        "code": "TD001",
+        "center": "18.732207,15.454166",
+        "region": "海外"
+    },
+    {
+        "name": "尼日尔",
+        "english": "Niger",
+        "code": "NE001",
+        "center": "8.081666,17.607789",
+        "region": "海外"
+    },
+    {
+        "name": "尼日利亚",
+        "english": "Nigeria",
+        "code": "NG001",
+        "center": "8.675277,9.081999",
+        "region": "海外"
+    },
+    {
+        "name": "贝宁",
+        "english": "Benin",
+        "code": "BJ001",
+        "center": "2.315834,9.307690",
+        "region": "海外"
+    },
+    {
+        "name": "多哥",
+        "english": "Togo",
+        "code": "TG001",
+        "center": "0.824782,8.619543",
+        "region": "海外"
+    },
+    {
+        "name": "加纳",
+        "english": "Ghana",
+        "code": "GH001",
+        "center": "-1.023194,7.946527",
+        "region": "海外"
+    },
+    {
+        "name": "科特迪瓦",
+        "english": "Ivory Coast",
+        "code": "CI001",
+        "center": "-5.547080,7.540000",
+        "region": "海外"
+    },
+    {
+        "name": "利比里亚",
+        "english": "Liberia",
+        "code": "LR001",
+        "center": "-9.429499,6.428055",
+        "region": "海外"
+    },
+    {
+        "name": "塞拉利昂",
+        "english": "Sierra Leone",
+        "code": "SL001",
+        "center": "-11.779889,8.460555",
+        "region": "海外"
+    },
+    {
+        "name": "几内亚",
+        "english": "Guinea",
+        "code": "GN001",
+        "center": "-9.696645,9.945587",
+        "region": "海外"
+    },
+    {
+        "name": "几内亚比绍",
+        "english": "Guinea-Bissau",
+        "code": "GW001",
+        "center": "-15.180413,11.803749",
+        "region": "海外"
+    },
+    {
+        "name": "塞内加尔",
+        "english": "Senegal",
+        "code": "SN001",
+        "center": "-14.452362,14.497401",
+        "region": "海外"
+    },
+    {
+        "name": "冈比亚",
+        "english": "Gambia",
+        "code": "GM001",
+        "center": "-15.310139,13.443182",
+        "region": "海外"
+    },
+    {
+        "name": "毛里塔尼亚",
+        "english": "Mauritania",
+        "code": "MR001",
+        "center": "-10.940835,21.007890",
+        "region": "海外"
+    },
+    {
+        "name": "马里",
+        "english": "Mali",
+        "code": "ML001",
+        "center": "-3.996166,17.570692",
+        "region": "海外"
+    },
+    {
+        "name": "布基纳法索",
+        "english": "Burkina Faso",
+        "code": "BF001",
+        "center": "-1.561593,12.238333",
+        "region": "海外"
+    },
+    {
+        "name": "澳大利亚",
+        "english": "Australia",
+        "code": "AU001",
+        "center": "133.775136,-25.274398",
+        "region": "海外"
+    },
+    {
+        "name": "新西兰",
+        "english": "New Zealand",
+        "code": "NZ001",
+        "center": "174.885971,-40.900557",
+        "region": "海外"
+    },
+    {
+        "name": "巴布亚新几内亚",
+        "english": "Papua New Guinea",
+        "code": "PG001",
+        "center": "143.955520,-6.315000",
+        "region": "海外"
+    },
+    {
+        "name": "斐济",
+        "english": "Fiji",
+        "code": "FJ001",
+        "center": "178.065032,-17.713371",
+        "region": "海外"
+    },
+    {
+        "name": "所罗门群岛",
+        "english": "Solomon Islands",
+        "code": "SB001",
+        "center": "160.156194,-9.645710",
+        "region": "海外"
+    },
+    {
+        "name": "瓦努阿图",
+        "english": "Vanuatu",
+        "code": "VU001",
+        "center": "166.959137,-15.376706",
+        "region": "海外"
+    },
+    {
+        "name": "新喀里多尼亚",
+        "english": "New Caledonia",
+        "code": "NC001",
+        "center": "165.618042,-20.904305",
+        "region": "海外"
+    },
+    {
+        "name": "巴西",
+        "english": "Brazil",
+        "code": "BR001",
+        "center": "-51.925280,-14.235004",
+        "region": "海外"
+    },
+    {
+        "name": "阿根廷",
+        "english": "Argentina",
+        "code": "AR001",
+        "center": "-63.616672,-38.416097",
+        "region": "海外"
+    },
+    {
+        "name": "智利",
+        "english": "Chile",
+        "code": "CL001",
+        "center": "-71.542969,-35.675147",
+        "region": "海外"
+    },
+    {
+        "name": "秘鲁",
+        "english": "Peru",
+        "code": "PE001",
+        "center": "-75.015152,-9.190000",
+        "region": "海外"
+    },
+    {
+        "name": "玻利维亚",
+        "english": "Bolivia",
+        "code": "BO001",
+        "center": "-63.588653,-16.290154",
+        "region": "海外"
+    },
+    {
+        "name": "巴拉圭",
+        "english": "Paraguay",
+        "code": "PY001",
+        "center": "-58.443828,-23.442503",
+        "region": "海外"
+    },
+    {
+        "name": "乌拉圭",
+        "english": "Uruguay",
+        "code": "UY001",
+        "center": "-55.765835,-32.522779",
+        "region": "海外"
+    },
+    {
+        "name": "厄瓜多尔",
+        "english": "Ecuador",
+        "code": "EC001",
+        "center": "-78.183406,-1.831239",
+        "region": "海外"
+    },
+    {
+        "name": "哥伦比亚",
+        "english": "Colombia",
+        "code": "CO001",
+        "center": "-74.297333,4.570868",
+        "region": "海外"
+    },
+    {
+        "name": "委内瑞拉",
+        "english": "Venezuela",
+        "code": "VE001",
+        "center": "-66.589730,6.423750",
+        "region": "海外"
+    },
+    {
+        "name": "圭亚那",
+        "english": "Guyana",
+        "code": "GY001",
+        "center": "-58.930180,4.860416",
+        "region": "海外"
+    },
+    {
+        "name": "苏里南",
+        "english": "Suriname",
+        "code": "SR001",
+        "center": "-56.027783,3.919305",
+        "region": "海外"
+    },
+    {
+        "name": "法属圭亚那",
+        "english": "French Guiana",
+        "code": "GF001",
+        "center": "-53.125782,3.933889",
+        "region": "海外"
+    },
+    {
+        "name": "墨西哥",
+        "english": "Mexico",
+        "code": "MX001",
+        "center": "-102.552784,23.634501",
+        "region": "海外"
+    },
+    {
+        "name": "危地马拉",
+        "english": "Guatemala",
+        "code": "GT001",
+        "center": "-90.230759,15.783471",
+        "region": "海外"
+    },
+    {
+        "name": "伯利兹",
+        "english": "Belize",
+        "code": "BZ001",
+        "center": "-88.497650,17.189877",
+        "region": "海外"
+    },
+    {
+        "name": "萨尔瓦多",
+        "english": "El Salvador",
+        "code": "SV001",
+        "center": "-88.896530,13.794185",
+        "region": "海外"
+    },
+    {
+        "name": "洪都拉斯",
+        "english": "Honduras",
+        "code": "HN001",
+        "center": "-86.241905,15.199999",
+        "region": "海外"
+    },
+    {
+        "name": "尼加拉瓜",
+        "english": "Nicaragua",
+        "code": "NI001",
+        "center": "-85.207229,12.865416",
+        "region": "海外"
+    },
+    {
+        "name": "哥斯达黎加",
+        "english": "Costa Rica",
+        "code": "CR001",
+        "center": "-83.753428,9.928069",
+        "region": "海外"
+    },
+    {
+        "name": "巴拿马",
+        "english": "Panama",
+        "code": "PA001",
+        "center": "-80.782127,8.537981",
+        "region": "海外"
+    },
+    {
+        "name": "古巴",
+        "english": "Cuba",
+        "code": "CU001",
+        "center": "-77.781167,21.521757",
+        "region": "海外"
+    },
+    {
+        "name": "牙买加",
+        "english": "Jamaica",
+        "code": "JM001",
+        "center": "-77.297508,18.109581",
+        "region": "海外"
+    },
+    {
+        "name": "海地",
+        "english": "Haiti",
+        "code": "HT001",
+        "center": "-72.285215,18.971187",
+        "region": "海外"
+    },
+    {
+        "name": "多米尼加",
+        "english": "Dominican Republic",
+        "code": "DO001",
+        "center": "-70.162651,18.735693",
+        "region": "海外"
+    },
+    {
+        "name": "波多黎各",
+        "english": "Puerto Rico",
+        "code": "PR001",
+        "center": "-66.590149,18.220833",
+        "region": "海外"
+    },
+    {
+        "name": "巴哈马",
+        "english": "Bahamas",
+        "code": "BS001",
+        "center": "-77.396280,25.034280",
+        "region": "海外"
+    },
+    {
+        "name": "特立尼达和多巴哥",
+        "english": "Trinidad and Tobago",
+        "code": "TT001",
+        "center": "-61.222503,10.691803",
+        "region": "海外"
+    },
+    {
+        "name": "巴巴多斯",
+        "english": "Barbados",
+        "code": "BB001",
+        "center": "-59.613191,13.193887",
+        "region": "海外"
+    },
+    {
+        "name": "格林纳达",
+        "english": "Grenada",
+        "code": "GD001",
+        "center": "-61.604171,12.262776",
+        "region": "海外"
+    },
+    {
+        "name": "圣文森特和格林纳丁斯",
+        "english": "Saint Vincent and the Grenadines",
+        "code": "VC001",
+        "center": "-61.287228,12.984305",
+        "region": "海外"
+    },
+    {
+        "name": "圣卢西亚",
+        "english": "Saint Lucia",
+        "code": "LC001",
+        "center": "-60.978893,13.909444",
+        "region": "海外"
+    },
+    {
+        "name": "多米尼克",
+        "english": "Dominica",
+        "code": "DM001",
+        "center": "-61.370976,15.414999",
+        "region": "海外"
+    },
+    {
+        "name": "安提瓜和巴布达",
+        "english": "Antigua and Barbuda",
+        "code": "AG001",
+        "center": "-61.796428,17.060816",
+        "region": "海外"
+    },
+    {
+        "name": "圣基茨和尼维斯",
+        "english": "Saint Kitts and Nevis",
+        "code": "KN001",
+        "center": "-62.782998,17.357822",
+        "region": "海外"
+    },
+    {
+        "name": "南非",
+        "english": "South Africa",
+        "code": "ZA001",
+        "center": "24.991639,-30.559482",
+        "region": "海外"
+    }
+] 

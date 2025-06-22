@@ -1,0 +1,146 @@
+[
+    {
+        "name": "中西区",
+        "pinyin": "zhongxiqu",
+        "english": "Central and Western District",
+        "code": "HK001",
+        "center": "114.154334,22.278333",
+        "region": "香港"
+    },
+    {
+        "name": "湾仔区",
+        "pinyin": "wanziqu",
+        "english": "Wan Chai District",
+        "code": "HK002",
+        "center": "114.173355,22.279944",
+        "region": "香港"
+    },
+    {
+        "name": "东区",
+        "pinyin": "dongqu",
+        "english": "Eastern District",
+        "code": "HK003",
+        "center": "114.225006,22.279131",
+        "region": "香港"
+    },
+    {
+        "name": "南区",
+        "pinyin": "nanqu",
+        "english": "Southern District",
+        "code": "HK004",
+        "center": "114.160236,22.247860",
+        "region": "香港"
+    },
+    {
+        "name": "油尖旺区",
+        "pinyin": "youjianwangqu",
+        "english": "Yau Tsim Mong District",
+        "code": "HK005",
+        "center": "114.173332,22.311703",
+        "region": "香港"
+    },
+    {
+        "name": "深水埗区",
+        "pinyin": "shenshuibuqu",
+        "english": "Sham Shui Po District",
+        "code": "HK006",
+        "center": "114.163242,22.330854",
+        "region": "香港"
+    },
+    {
+        "name": "九龙城区",
+        "pinyin": "jiulongchengqu",
+        "english": "Kowloon City District",
+        "code": "HK007",
+        "center": "114.192659,22.328523",
+        "region": "香港"
+    },
+    {
+        "name": "黄大仙区",
+        "pinyin": "huangdaxianqu",
+        "english": "Wong Tai Sin District",
+        "code": "HK008",
+        "center": "114.195126,22.341030",
+        "region": "香港"
+    },
+    {
+        "name": "观塘区",
+        "pinyin": "guantangqu",
+        "english": "Kwun Tong District",
+        "code": "HK009",
+        "center": "114.231268,22.309430",
+        "region": "香港"
+    },
+    {
+        "name": "葵青区",
+        "pinyin": "kuiqingqu",
+        "english": "Kwai Tsing District",
+        "code": "HK010",
+        "center": "114.132629,22.356854",
+        "region": "香港"
+    },
+    {
+        "name": "荃湾区",
+        "pinyin": "quanwanqu",
+        "english": "Tsuen Wan District",
+        "code": "HK011",
+        "center": "114.114004,22.370180",
+        "region": "香港"
+    },
+    {
+        "name": "屯门区",
+        "pinyin": "tunmenqu",
+        "english": "Tuen Mun District",
+        "code": "HK012",
+        "center": "113.976574,22.391047",
+        "region": "香港"
+    },
+    {
+        "name": "元朗区",
+        "pinyin": "yuanlangqu",
+        "english": "Yuen Long District",
+        "code": "HK013",
+        "center": "114.032438,22.444498",
+        "region": "香港"
+    },
+    {
+        "name": "北区",
+        "pinyin": "beiqu",
+        "english": "North District",
+        "code": "HK014",
+        "center": "114.138824,22.494086",
+        "region": "香港"
+    },
+    {
+        "name": "大埔区",
+        "pinyin": "dapuqu",
+        "english": "Tai Po District",
+        "code": "HK015",
+        "center": "114.168746,22.450386",
+        "region": "香港"
+    },
+    {
+        "name": "西贡区",
+        "pinyin": "xigongqu",
+        "english": "Sai Kung District",
+        "code": "HK016",
+        "center": "114.264813,22.314213",
+        "region": "香港"
+    },
+    {
+        "name": "沙田区",
+        "pinyin": "shatianqu",
+        "english": "Sha Tin District",
+        "code": "HK017",
+        "center": "114.195365,22.387156",
+        "region": "香港"
+    },
+    {
+        "name": "离岛区",
+        "pinyin": "lidaoqu",
+        "english": "Islands District",
+        "code": "HK018",
+        "center": "113.946120,22.286371",
+        "region": "香港"
+    }
+] 

@@ -1,0 +1,66 @@
+[
+    {
+        "name": "花地玛堂区",
+        "pinyin": "huadimatangqu",
+        "english": "Nossa Senhora de Fátima",
+        "code": "MO001",
+        "center": "113.552895,22.207882",
+        "region": "澳门"
+    },
+    {
+        "name": "圣安多尼堂区",
+        "pinyin": "shenganduonitangqu",
+        "english": "Santo António",
+        "code": "MO002",
+        "center": "113.564301,22.123810",
+        "region": "澳门"
+    },
+    {
+        "name": "大堂区",
+        "pinyin": "datangqu",
+        "english": "Sé",
+        "code": "MO003",
+        "center": "113.543873,22.188119",
+        "region": "澳门"
+    },
+    {
+        "name": "望德堂区",
+        "pinyin": "wangdetangqu",
+        "english": "São Lázaro",
+        "code": "MO004",
+        "center": "113.550252,22.193791",
+        "region": "澳门"
+    },
+    {
+        "name": "风顺堂区",
+        "pinyin": "fengshuntangqu",
+        "english": "São Lourenço",
+        "code": "MO005",
+        "center": "113.541928,22.187368",
+        "region": "澳门"
+    },
+    {
+        "name": "嘉模堂区",
+        "pinyin": "jiamotangqu",
+        "english": "Nossa Senhora do Carmo",
+        "code": "MO006",
+        "center": "113.558783,22.156784",
+        "region": "澳门"
+    },
+    {
+        "name": "路氹城",
+        "pinyin": "ludangcheng",
+        "english": "Cotai",
+        "code": "MO007",
+        "center": "113.558783,22.156784",
+        "region": "澳门"
+    },
+    {
+        "name": "圣方济各堂区",
+        "pinyin": "shengfangjigetangqu",
+        "english": "São Francisco Xavier",
+        "code": "MO008",
+        "center": "113.558783,22.156784",
+        "region": "澳门"
+    }
+] 

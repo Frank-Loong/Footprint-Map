@@ -1,0 +1,88 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 旅行足迹地图 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-01 12:00+0800\n"
+"PO-Revision-Date: 2024-01-01 12:00+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Travel Footprint Map Settings"
+msgstr "旅行足迹地图设置"
+
+msgid "Travel Footprint Map"
+msgstr "旅行足迹地图"
+
+msgid "Basic Settings"
+msgstr "基本设置"
+
+msgid "Configure Amap API and city data"
+msgstr "配置高德地图API和城市数据"
+
+msgid "Amap API Key"
+msgstr "高德地图API Key"
+
+msgid "Please apply for Web (JS API) Key from Amap Open Platform"
+msgstr "请在高德开放平台申请Web端(JS API)的Key"
+
+msgid "Amap Security Code"
+msgstr "高德地图安全密钥"
+
+msgid "Please apply for security code from Amap Open Platform"
+msgstr "请在高德开放平台申请安全密钥"
+
+msgid "City Data"
+msgstr "城市数据"
+
+msgid "Please enter city data in JSON format"
+msgstr "请输入JSON格式的城市数据"
+
+msgid "Usage Instructions"
+msgstr "使用说明"
+
+msgid "1. Apply for Amap API"
+msgstr "1. 申请高德地图API"
+
+msgid "Please visit Amap Open Platform to apply for Web (JS API) Key and security code."
+msgstr "请访问高德开放平台申请Web端(JS API)的Key和安全密钥。"
+
+msgid "2. Configure City Data"
+msgstr "2. 配置城市数据"
+
+msgid "Enter JSON format city information in the 'City Data' field, including the following fields:"
+msgstr "在'城市数据'字段中输入JSON格式的城市信息，包含以下字段："
+
+msgid "adcode: City code (can be downloaded from Amap Open Platform)"
+msgstr "adcode: 城市编码（可在高德开放平台下载城市编码表）"
+
+msgid "name: City name"
+msgstr "name: 城市名称"
+
+msgid "center: City latitude and longitude coordinates"
+msgstr "center: 城市经纬度坐标"
+
+msgid "opacity: Opacity (1.0-10.0)"
+msgstr "opacity: 不透明度（1.0-10.0）"
+
+msgid "desc: HTML content displayed when clicking on the city"
+msgstr "desc: 点击城市时显示的HTML内容"
+
+msgid "3. Use in Pages"
+msgstr "3. 在页面中使用"
+
+msgid "Use shortcode in articles or pages:"
+msgstr "在文章或页面中使用短代码："
+
+msgid "Or use PHP code:"
+msgstr "或者使用PHP代码："
+
+msgid "Please configure Amap API Key first"
+msgstr "请先在后台配置高德地图API Key"
+
+msgid "Map loading failed, please check API configuration"
+msgstr "地图加载失败，请检查API配置" 

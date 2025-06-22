@@ -1,0 +1,519 @@
+/* 
+ * 足迹地图样式文件
+ * 注意：本文件包含高德地图特有的CSS属性，如 stroke-color 和 fill-color
+ * 这些属性用于地图标记的样式设置，是有效的CSS属性
+ */
+
+/* 旅行足迹地图样式 */
+#footprint-map-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* 信息窗体样式 */
+#footprint-map-container .amap-info-content {
+    padding: 0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    border: none;
+    background: #fff;
+    width: 300px !important; /* 固定宽度 */
+    height: 350px !important; /* 固定高度 */
+    transition: none; /* 移除过渡动画，避免大小变化 */
+}
+
+/* 现代化城市信息样式 */
+.city-info {
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    transition: none; /* 移除过渡动画 */
+    height: 310px; /* 固定内容区域高度 */
+    overflow-y: auto; /* 内容过多时可滚动 */
+}
+
+.city-name {
+    margin: 0 0 15px 0;
+    font-size: 18px !important; /* 固定字体大小 */
+    font-weight: 600;
+    color: #333;
+    border-bottom: 2px solid #0073aa;
+    padding-bottom: 8px;
+    transition: none; /* 移除过渡动画 */
+}
+
+.city-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 12px;
+}
+
+.tag {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 11px !important; /* 固定字体大小 */
+    font-weight: 500;
+    animation: tagAppear 0.3s ease-out;
+    animation-delay: calc(var(--tag-index, 0) * 0.1s);
+    opacity: 0;
+    animation-fill-mode: forwards;
+    transition: none; /* 移除过渡动画 */
+}
+
+@keyframes tagAppear {
+    from {
+        opacity: 0;
+        transform: translateY(10px) scale(0.8);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+.visit-date {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 12px;
+    color: #666;
+    font-size: 13px !important; /* 固定字体大小 */
+    transition: none; /* 移除过渡动画 */
+}
+
+.visit-date .dashicons {
+    color: #0073aa;
+    font-size: 14px !important; /* 固定字体大小 */
+    transition: none; /* 移除过渡动画 */
+}
+
+.city-description {
+    margin-bottom: 12px;
+    line-height: 1.6;
+    color: #555;
+    transition: none; /* 移除过渡动画 */
+}
+
+.city-description p {
+    margin: 0;
+    font-size: 14px !important; /* 固定字体大小 */
+    transition: none; /* 移除过渡动画 */
+}
+
+.city-image {
+    margin-top: 12px;
+}
+
+.city-image img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: height 0.3s ease;
+}
+
+/* 多张图片容器 */
+.city-images {
+    margin-top: 12px;
+    display: grid;
+    gap: 6px;
+    /* 根据图片数量自适应排列 */
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    max-height: none; /* 移除最大高度限制 */
+    overflow: visible; /* 移除滚动 */
+}
+
+/* 根据图片数量调整网格布局 */
+.city-images[data-count="1"] {
+    grid-template-columns: 1fr;
+    max-width: 200px;
+}
+
+.city-images[data-count="2"] {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.city-images[data-count="3"] {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.city-images[data-count="4"] {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.city-images[data-count="5"],
+.city-images[data-count="6"] {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.city-images[data-count="7"],
+.city-images[data-count="8"] {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.city-images[data-count="9"] {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.city-images[data-count="10"],
+.city-images[data-count="11"],
+.city-images[data-count="12"] {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.city-images .city-image {
+    margin-top: 0;
+    position: relative;
+    aspect-ratio: 1/1; /* 统一为正方形 */
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer; /* 添加点击指针 */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.city-images .city-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.city-images .city-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+/* 图片点击查看模态框 */
+.image-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 10000;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.image-modal img {
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: contain;
+    border-radius: 8px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+    display: block; /* 确保图片正确显示 */
+    margin: 0 auto; /* 水平居中 */
+    position: absolute; /* 绝对定位 */
+    top: 50%; /* 垂直居中 */
+    left: 50%; /* 水平居中 */
+    transform: translate(-50%, -50%); /* 完全居中 */
+}
+
+.image-modal .close-modal {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+}
+
+.image-modal .close-modal:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.image-modal .image-counter {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.image-modal .nav-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    color: white;
+    font-size: 24px;
+    padding: 15px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.image-modal .nav-btn:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.image-modal .nav-btn.prev {
+    left: 20px;
+}
+
+.image-modal .nav-btn.next {
+    right: 20px;
+}
+
+/* 地图控件样式 */
+#footprint-map-container .amap-toolbar {
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+#footprint-map-container .amap-scale {
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 4px 8px;
+    font-size: 12px;
+    color: #333;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* 标签样式 */
+#footprint-map-container .amap-label {
+    background: rgba(255, 255, 255, 0.95);
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 4px 8px;
+    font-size: 12px;
+    color: #333;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#footprint-map-container .amap-marker-label {
+    background: rgba(255, 255, 255, 0.95);
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 4px 8px;
+    font-size: 12px;
+    color: #333;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#footprint-map-container .amap-marker-label:hover {
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    transform: translateY(-1px);
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .city-info {
+        padding: 15px;
+    }
+    
+    .city-name {
+        font-size: 16px;
+    }
+    
+    .city-image img {
+        height: 100px;
+    }
+    
+    /* 多张图片响应式 */
+    .city-images {
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+        max-height: 250px;
+        gap: 6px;
+    }
+    
+    .city-images .city-image {
+        aspect-ratio: 4/3;
+    }
+    
+    .visit-date {
+        font-size: 12px;
+    }
+    
+    .visit-date .dashicons {
+        font-size: 12px;
+    }
+    
+    .city-description p {
+        font-size: 13px;
+    }
+    
+    .tag {
+        font-size: 10px;
+    }
+}
+
+/* 响应式设计 - 超小屏幕 */
+@media (max-width: 480px) {
+    .city-info {
+        padding: 12px;
+    }
+    
+    .city-name {
+        font-size: 14px;
+    }
+    
+    .city-image img {
+        height: 80px;
+    }
+    
+    /* 多张图片超小屏幕响应式 */
+    .city-images {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        max-height: 200px;
+        gap: 4px;
+    }
+    
+    .city-images .city-image {
+        aspect-ratio: 1/1;
+    }
+    
+    .visit-date {
+        font-size: 11px;
+    }
+    
+    .visit-date .dashicons {
+        font-size: 11px;
+    }
+    
+    .city-description p {
+        font-size: 12px;
+    }
+    
+    .tag {
+        font-size: 9px;
+        padding: 3px 6px;
+    }
+}
+
+/* 加载状态 */
+#footprint-map-container.loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 300px;
+    background: #f5f5f5;
+    color: #666;
+}
+
+/* 错误状态 */
+#footprint-map-container.error {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 300px;
+    background: #fff5f5;
+    color: #e53e3e;
+    border: 1px solid #fed7d7;
+    border-radius: 8px;
+}
+
+/* 动画效果 */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.city-info {
+    animation: fadeInUp 0.3s ease-out;
+}
+
+/* 悬停效果 */
+.city-info:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+/* 图片加载效果 */
+.city-image img {
+    transition: opacity 0.3s ease;
+}
+
+.city-image img[loading] {
+    opacity: 0.7;
+}
+
+/* 自定义滚动条 */
+.city-info::-webkit-scrollbar {
+    width: 6px;
+}
+
+.city-info::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 3px;
+}
+
+.city-info::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+    border-radius: 3px;
+}
+
+.city-info::-webkit-scrollbar-thumb:hover {
+    background: #a8a8a8;
+}
+
+/* 地区类型标签样式 */
+#footprint-map-container .region-label {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 2px 6px;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    font-size: 10px;
+    color: #666;
+}
+
+/* 港澳台地区特殊样式 */
+#footprint-map-container .hongkong-marker {
+    stroke-color: #FF6B35; /* 高德地图特有属性 */
+    fill-color: #FF6B35; /* 高德地图特有属性 */
+}
+
+#footprint-map-container .macau-marker {
+    stroke-color: #FF6B35; /* 高德地图特有属性 */
+    fill-color: #FF6B35; /* 高德地图特有属性 */
+}
+
+#footprint-map-container .taiwan-marker {
+    stroke-color: #FF6B35; /* 高德地图特有属性 */
+    fill-color: #FF6B35; /* 高德地图特有属性 */
+}
+
+/* 海外地区特殊样式 */
+#footprint-map-container .overseas-marker {
+    stroke-color: #4A90E2; /* 高德地图特有属性 */
+    fill-color: #4A90E2; /* 高德地图特有属性 */
+} 

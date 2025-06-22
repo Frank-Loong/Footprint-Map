@@ -1,0 +1,20 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor-specific files
+.vscode/
+.idea/
+
+# WordPress specific
+wp-content/
+wp-includes/
+wp-admin/
+wp-config.php
+.htaccess
+
+# Build files
+/node_modules/
+/vendor/
+npm-debug.log
+yarn-error.log 
