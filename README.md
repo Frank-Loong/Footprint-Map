@@ -297,5 +297,4 @@ footprint-map/
 *让每一次旅行都留下美好的足迹回忆* 
 
 ## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=Frank-Loong/Footprint-Map&type=Date)](https://star-history.com/Frank-Loong/Footprint-Map&Date)
+![Star History Chart](https://api.star-history.com/svg?repos=Frank-Loong/Footprint-Map&type=Date)
