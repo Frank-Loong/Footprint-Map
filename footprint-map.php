@@ -3,7 +3,7 @@
  * Plugin Name: 足迹地图
  * Plugin URI: https://github.com/Frank-Loong/Footprint-Map
  * Description: 基于高德地图API的足迹展示插件，可以在地图上标记您去过的城市
- * Version: 1.2.1
+ * Version: 1.2.2
  * Author: Frank Loong
  * Author URI: https://frankloong.com
  * Author Email: frankloong@qq.com
@@ -83,7 +83,7 @@ function footprint_map_admin_notices() {
 add_action('admin_notices', 'footprint_map_admin_notices');
 
 // 定义插件常量
-define('FOOTPRINT_MAP_VERSION', '1.2.1');
+define('FOOTPRINT_MAP_VERSION', '1.2.2');
 define('FOOTPRINT_MAP_PLUGIN_URL', plugin_dir_url(__FILE__));
 define('FOOTPRINT_MAP_PLUGIN_PATH', plugin_dir_path(__FILE__));
 
@@ -122,7 +122,7 @@ class FootprintMap {
     public function enqueue_scripts() {
         wp_enqueue_style('footprint-map-css', FOOTPRINT_MAP_PLUGIN_URL . 'assets/css/footprint-map.css', array(), '1.0');
         // 不再通过wp_enqueue_script加载高德地图loader，改由前端动态加载
-        wp_enqueue_script('footprint-map-js', FOOTPRINT_MAP_PLUGIN_URL . 'assets/js/footprint-map.js', array('jquery'), '1.2', true);
+        wp_enqueue_script('footprint-map-js', FOOTPRINT_MAP_PLUGIN_URL . 'assets/js/footprint-map.js', array('jquery'), FOOTPRINT_MAP_VERSION, true);
             
         wp_localize_script('footprint-map-js', 'footprintMapData', array(
                 'amapKey' => get_option('footprint_map_amap_key', ''),
@@ -600,7 +600,7 @@ class FootprintMap {
                                     <div class="info-grid">
                                         <div class="info-item">
                                             <span class="info-label">版本：</span>
-                                            <span class="info-value">1.2.1</span>
+                                            <span class="info-value">1.2.2</span>
                                         </div>
                                         <div class="info-item">
                                             <span class="info-label">许可证：</span>
