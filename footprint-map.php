@@ -1237,4 +1237,4 @@ class FootprintMap {
 }
 
 // 初始化插件
-new FootprintMap(); 
+new FootprintMap();

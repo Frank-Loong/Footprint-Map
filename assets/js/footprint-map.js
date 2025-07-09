@@ -239,7 +239,7 @@ jQuery(document).ready(function($) {
         $('#map-view-switcher').remove();
 
         const switcher = $(
-            `<div id="map-view-switcher" style="position:absolute; top:10px; right:50px; z-index:1000; background:white; padding:5px; border:1px solid #ccc; border-radius:4px;">
+            `<div id="map-view-switcher" style="position:absolute; top:10px; right:50px; z-index:10; background:white; padding:5px; border:1px solid #ccc; border-radius:4px;">
                 <button id="china-view-btn" class="view-btn">中国</button>
                 <button id="world-view-btn" class="view-btn">世界</button>
             </div>`
