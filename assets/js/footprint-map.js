@@ -238,12 +238,12 @@ jQuery(document).ready(function($) {
         // 移除旧的切换器以防万一
         $('#map-view-switcher').remove();
 
-        const switcher = $(`
-            <div id="map-view-switcher" style="position:absolute; top:10px; right:50px; z-index:1000; background:white; padding:5px; border:1px solid #ccc; border-radius:4px;">
+        const switcher = $(
+            `<div id="map-view-switcher" style="position:absolute; top:10px; right:50px; z-index:10; background:white; padding:5px; border:1px solid #ccc; border-radius:4px;">
                 <button id="china-view-btn" class="view-btn">中国</button>
                 <button id="world-view-btn" class="view-btn">世界</button>
-            </div>
-        `);
+            </div>`
+        );
         
         $('#footprint-map-container').append(switcher);
         
@@ -1162,15 +1162,15 @@ jQuery(document).ready(function($) {
     // 图片查看功能
     function initImageModal() {
         // 创建模态框
-        var modal = $(`
-            <div class="image-modal">
+        var modal = $(
+            `<div class="image-modal">
                 <button class="close-modal">&times;</button>
                 <img src="" alt="">
                 <div class="image-counter"></div>
                 <button class="nav-btn prev">‹</button>
                 <button class="nav-btn next">›</button>
-            </div>
-        `);
+            </div>`
+        );
         
         $('body').append(modal);
         
