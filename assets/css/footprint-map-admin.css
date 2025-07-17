@@ -1,15 +1,4 @@
-/**
- * 足迹地图管理后台样式文件
- * 包含管理界面布局、表单、列表等样式定义
- * 采用现代化设计风格
- * 
- * @since      1.0.0
- * @version    1.2.2
- * @package    Footprint_Map
- * @author     Frank-Loong
- * @license    GPL-3.0-or-later
- * @link       https://github.com/Frank-Loong/Footprint-Map
- */
+/* 足迹地图管理界面样式 - 现代化设计 */
 :root {
     --primary-color: #2563eb;
     --primary-hover: #1d4ed8;

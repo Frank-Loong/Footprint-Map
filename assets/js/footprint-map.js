@@ -1,15 +1,3 @@
-/**
- * 足迹地图前端主要JavaScript文件
- * 包含地图初始化、城市标记、交互功能等核心实现
- * 
- * @since      1.0.0
- * @version    1.2.2
- * @package    Footprint_Map
- * @author     Frank-Loong
- * @license    GPL-3.0-or-later
- * @link       https://github.com/Frank-Loong/Footprint-Map
- */
-
 jQuery(document).ready(function($) {
     'use strict';
     

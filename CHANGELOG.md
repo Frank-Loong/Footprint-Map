@@ -349,5 +349,3 @@
 - WebDAV备份功能
 - 自定义样式和描述
 - 响应式设计 
-
-> © 2025 Frank-Loong · Footprint-Map v1.2.2
