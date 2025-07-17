@@ -1,9 +1,14 @@
 <?php
 /**
  * 足迹地图插件卸载文件
+ * 当插件被删除时自动执行，用于清理插件数据
  * 
- * 当插件被删除时，此文件会被自动执行
- * 用于清理插件创建的所有数据
+ * @since      1.0.0
+ * @version    1.2.2
+ * @package    Footprint_Map
+ * @author     Frank-Loong
+ * @license    GPL-3.0-or-later
+ * @link       https://github.com/Frank-Loong/Footprint-Map
  */
 
 // 防止直接访问

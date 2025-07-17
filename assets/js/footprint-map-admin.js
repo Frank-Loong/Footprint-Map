@@ -1,3 +1,15 @@
+/**
+ * 足迹地图管理后台JavaScript文件
+ * 包含城市管理、数据导入导出、备份恢复等管理功能
+ * 
+ * @since      1.0.0
+ * @version    1.2.2
+ * @package    Footprint_Map
+ * @author     Frank-Loong
+ * @license    GPL-3.0-or-later
+ * @link       https://github.com/Frank-Loong/Footprint-Map
+ */
+
 jQuery(document).ready(function($) {
     'use strict';
     

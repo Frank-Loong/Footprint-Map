@@ -1,7 +1,14 @@
-/* 
- * 足迹地图样式文件
- * 注意：本文件包含高德地图特有的CSS属性，如 stroke-color 和 fill-color
- * 这些属性用于地图标记的样式设置，是有效的CSS属性
+/**
+ * 足迹地图前端样式文件
+ * 包含地图显示、信息窗体、标记点等样式定义
+ * 注意：本文件包含高德地图特有的CSS属性
+ * 
+ * @since      1.0.0
+ * @version    1.2.2
+ * @package    Footprint_Map
+ * @author     Frank-Loong
+ * @license    GPL-3.0-or-later
+ * @link       https://github.com/Frank-Loong/Footprint-Map
  */
 
 /* 旅行足迹地图样式 */
