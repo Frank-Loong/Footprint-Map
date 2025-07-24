@@ -3,7 +3,7 @@
  * Plugin Name: 足迹地图
  * Plugin URI: https://github.com/Frank-Loong/Footprint-Map
  * Description: 基于高德地图API的足迹展示插件，可以在地图上标记您去过的城市
- * Version: 1.2.2
+ * Version: 1.2.3
  * Author: Frank Loong
  * Author URI: https://frankloong.com
  * Author Email: frankloong@qq.com
@@ -83,7 +83,7 @@ function footprint_map_admin_notices() {
 add_action('admin_notices', 'footprint_map_admin_notices');
 
 // 定义插件常量
-define('FOOTPRINT_MAP_VERSION', '1.2.2');
+define('FOOTPRINT_MAP_VERSION', '1.2.3');
 define('FOOTPRINT_MAP_PLUGIN_URL', plugin_dir_url(__FILE__));
 define('FOOTPRINT_MAP_PLUGIN_PATH', plugin_dir_path(__FILE__));
 
@@ -600,7 +600,7 @@ class FootprintMap {
                                     <div class="info-grid">
                                         <div class="info-item">
                                             <span class="info-label">版本：</span>
-                                            <span class="info-value">1.2.2</span>
+                                            <span class="info-value">1.2.3</span>
                                         </div>
                                         <div class="info-item">
                                             <span class="info-label">许可证：</span>
